@@ -1,0 +1,40 @@
+.m_border_radius(@radius:50%) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  border-radius: @radius;
+}
+.m_transition (@objects:all,@delay:0.5s){
+  -webkit-transition: @objects @delay;
+  -moz-transition: @objects @delay;
+  -o-transition: @objects @delay;
+  transition: @objects @delay;
+}
+.m_transform_translate(@left:0,@top:-3px){
+  -moz-transform: translate(@left, @top);
+  -webkit-transform: translate(@left, @top);
+  -o-transform: translate(@left, @top);
+  -ms-transform: translate(@left, @top);
+  transform: translate(@left, @top);
+}
+.m_box_shadow(@x: 0, @y: 0, @blur: 70px, @color: #fff) {
+  -webkit-box-shadow: @x @y @blur @color;
+  -moz-box-shadow: @x @y @blur @color;
+  box-shadow: @x @y @blur @color;
+}
+.m_box_shadow_inset (@x: 0, @y: 0, @blur: 50px, @color: #fff) {
+  -webkit-box-shadow: inset @x @y @blur @color;
+  -moz-box-shadow: inset @x @y @blur @color;
+  box-shadow: inset @x @y @blur @color;
+}
+.m_box_shadow_none {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.m_line_gradient_3 (@color1, @pos1, @color2, @pos2, @color3, @pos3) {
+  background-image: -webkit-linear-gradient(left,@color1 @pos1,@color2 @pos2,@color3 @pos3);
+  background-image: -moz-linear-gradient(left,@color1 @pos1,@color2 @pos2,@color3 @pos3);
+  background-image: -o-linear-gradient(left,@color1 @pos1,@color2 @pos2,@color3 @pos3);
+  background-image: -ms-linear-gradient(left,@color1 @pos1,@color2 @pos2,@color3 @pos3);
+  background-image: linear-gradient(to left,@color1 @pos1,@color2 @pos2,@color3 @pos3);
+}

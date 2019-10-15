@@ -1,0 +1,5 @@
+.m_box_shadow_none {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
