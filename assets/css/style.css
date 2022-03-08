@@ -188,6 +188,7 @@ footer .social li a:hover {
   background: #fff;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   margin-bottom: 16px;
+  font-size: 16px;
 }
 .block a {
   position: relative;
@@ -248,7 +249,6 @@ footer .social li a:hover {
 .block p {
   vertical-align: middle;
   margin: 1em 0;
-  font-size: 15px;
   line-height: 1.5;
 }
 .block p i {
@@ -262,6 +262,8 @@ footer .social li a:hover {
 }
 .block b {
   font-weight: bold;
+  color: #333;
+  letter-spacing: 0.01em;
 }
 .block hr {
   border: 0;
